@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Trip</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Fuel your mind</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="clip.mp4"></span>
+        <span class="vid-btn" data-src="vid-1.mp4"></span>
+        <span class="vid-btn" data-src="clip2.mp4"></span>
+        <span class="vid-btn" data-src="vid-2.mp4"></span>
+        <span class="vid-btn" data-src="clip3.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="clip.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="explore.gif" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="Place name">
+            </div>
+            <div class="inputBox">
+                <h3>How many</h3>
+                <input type="number" placeholder="Number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Paris, France </h3>
+                <p>Paris is known for its gorgeous, imposing monuments. These iconic structures, often an exemplar of a particular era in architecture, are one of the city's instantly recognizable elements. The preeminent of Paris's landmarks is the Eiffel Tower.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $980.00 <span>$1871.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="santorini.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Santorini, Greece </h3>
+                <p>Santorini is a fantastic Cycladic island in the southern Aegean Sea with astonishing volcanic scenery and world-famous sunset vistas. It comprises a luxury-oriented destination that is perfect for couples, with rich viticulture and history to dive into.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $1300.00 <span>$1926.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="borabora.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Bora Bora, French Polynesia </h3>
+                <p>This south pacific island could easily be defined as the center of the romantic universe, where luxury, beach resorts, and spas dot the island with overwater bungalows, thatched-roof villas, and a fabled ambiance. Simply put, Bora Bora is one of the most beautiful islands in the world.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $999.00 <span>$2000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="india.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Agra, India </h3>
+                <p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $570.00 <span>$790.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Fujiyoshida, Japan </h3>
+                <p>The Chureito Pagoda (忠霊塔, Chūreitō) is a five storied pagoda on the mountainside overlooking Fujiyoshida City and Mount Fuji off in the distance. The pagoda is part of the Arakura Sengen Shrine and was built as a peace memorial in 1963 nearly 400 steps up the mountain from the shrine's main buildings.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> $876.00 <span>$1034.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pyramid of Djoser, Eypt </h3>
+                <p>At some point between 2667 and 2648 BC, this step pyramid was constructed for Pharaoh Djoser, setting new standards for the burial rites of the Egyptian ruler. It still stands today, over 4000 years later, making it the oldest remaining stone building in history.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $690.00 <span>$1372.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Pick your paradise and enjoy your vaction unlike any other</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Journey of travel and food from around the world</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Get to know your destination in depth before you arrive and book everything in one place</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Experience the best of your destination with attractions, tours, activities, and more</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fast and flexible</h3>
+            <p>Book tickets online in minutes, with free cancellation on many attractions</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>There's plenty to keep you busy</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="g-1.jpg" alt="">
+            <div class="content">
+                <h3>Bali, Indonesia</h3>
+                <p>Bali is a province of Indonesia and is approximately 153km wide and 112km high with a total land area of approximately 5,780 square km (2,231 square miles). </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-2.jpg" alt="">
+            <div class="content">
+                <h3>Mt.Everest, Nepal</h3>
+                <p>Mount Everest is a peak in the Himalaya mountain range. It is located between Nepal and Tibet. At 8,849 meters (29,032 feet), it is considered the tallest point on Earth. </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-3.jpg" alt="">
+            <div class="content">
+                <h3>Parthenon, Greece</h3>
+                <p>The Parthenon is a resplendent marble temple built between 447 and 432 B.C. during the height of the ancient Greek Empire. </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-4.jpg" alt="">
+            <div class="content">
+                <h3>Sydney, Australia</h3>
+                <p>Sydney is the largest and most populous city in Australia and the state capital of New South Wales. Sydney is located on Australia's south-east coast of the Tasman Sea. </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-5.jpg" alt="">
+            <div class="content">
+                <h3>Pisa Cathedral, Italy</h3>
+                <p>Pisa Cathedral is a medieval Roman Catholic cathedral dedicated to the Assumption of the Virgin Mary, in the Piazza dei Miracoli in Pisa, Italy, the oldest of the three structures.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-6.jpg" alt="">
+            <div class="content">
+                <h3>Cairo, Egypt</h3>
+                <p>CairoThe City of a Thousand Minarets” is the capital of Egypt and with a total population in excess of 16 million people, one of the largest cities in both Africa and the Middle East. </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-7.jpg" alt="">
+            <div class="content">
+                <h3>Machu Picchu, Peru</h3>
+                <p>Machu Picchu , Ancient fortress city of the Incas in the Andes Mountains, Peru. Perched near Cuzco in a narrow saddle between two sharp peaks, at an elevation of 7,710 ft.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-8.jpg" alt="">
+            <div class="content">
+                <h3>Colosseum, Rome</h3>
+                <p>It is an elliptical structure made of stone, concrete, and tuff, and it stands four stories tall at its highest point. It measures 620 by 513 feet (189 by 156 metres) and could hold as many as 50,000 spectators. </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="g-9.jpg" alt="">
+            <div class="content">
+                <h3>Beratan Temple, Indonesia</h3>
+                <p>Pura Ulun Danu Beratan Temple was built in 17th century and is dedicated to the Hindu Gods Brajma, the goddess of the lake, Dewi Danu. </p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic1.jpeg" alt="">
+                    <h3>Spongebob Squarepants</h3>
+                    <p>Look at all the hip young people eating sal-ads.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic2.webp" alt="">
+                    <h3>Patrick Star</h3>
+                    <p>Once upon a time there was an ugly barnacle. He was so ugly that everyone died. The end!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic3.webp" alt="">
+                    <h3>Handsome Squidward</h3>
+                    <p>Fortunately, I Have Enough Talent For All Of You.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic4.png" alt="">
+                    <h3>Sandy Cheeks</h3>
+                    <p>I'll be there faster than a bare-foot jackrabbit on a hot, greasy griddle, in the middle of August!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="pic5.jpeg" alt="">
+                    <h3>Eugene Krabs</h3>
+                    <p>That penny‘s coming out of your paycheck!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="mailgif.gif" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="Text" placeholder="Name">
+                <input type="Email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="Number" placeholder="Number">
+                <input type="Text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="Submit" class="btn" value="Send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Final project for INFO 202 class.</p>
+        </div>
+        <div class="box">
+            <h3>Resources</h3>
+            <a href="#">Travel protection</a>
+            <a href="#">Loyalty program</a>
+            <a href="#">Referral program</a>
+            <a href="#">Group travel program</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">Book</a>
+            <a href="#">Packages</a>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> Copyright ©2022 <span> Made by Christeena Rai </span> | all rights reserved! </h1>
+
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
